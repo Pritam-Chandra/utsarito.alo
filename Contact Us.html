@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<style>
+
+.navbar{
+	margin:0 auto;
+	width:1300px;
+}	
+.navbar ul {
+	padding:0px;
+}
+.navbar ul li {
+	float:left;
+	margin:1px;
+	position:relative;
+	background-color:#c2c0c0;
+	border-radious:8px;
+	list-style-type:none;	
+}
+.navbar ul li a{
+	text-decoration:none;
+	color:#003399;
+	padding:15px;
+	font-weight:bolder;
+	display:block;
+	width:130px;
+	text-align:center;
+}
+.navbar ul li a:hover{
+background-color:#fcfcfc;
+}
+.navbar ul li ul{
+	position:absolute;
+	visibility:hidden;
+}
+.navbar ul li:hover ul{
+	visibility:visible;
+}
+
+</style>
+
+</head>
+<body bgcolor="#DBEDF0">     
+    <table bgcolor="#DBEDF0" border="0" align="center" bgcolor="#FFFFFF" width="1300" height="0">
+        <tr>
+    	<td align="left"><font size="10" face="Castellar" color="#0000FF">UTSARITO ALO</font></td>
+        <td align="right"><img src="ngo_icon.png" width="100"</td>
+        </tr>
+    </table>
+    
+    <div class="navbar">
+        <ul>
+            <li><a href="Home Page.html">Home</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">About Us</a>
+                <ul>
+                    <li><a href="About Organisation.html"> About Our Organisation</a></li>
+                    <li><a href="Aims Objectives.html">Our Aims and Objectives</a></li>
+                    <li><a href="Members.html">Group Members</a></li>
+                </ul>
+            </li>    
+        </ul>
+        <ul>
+            <li><a href="#">Gallery</a>
+            	<ul>
+                    <li><a href="Image.html">Images</a></li>
+                    <li><a href="Audio.html">Audios</a></li>
+                    <li><a href="Video.html">Videos</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+        <ul>
+            <li><a href="Forms.html">Forms</a>
+        </ul>
+        <ul>    
+            <li><a href="#">Donation</a>
+                <ul>
+                    <li><a href="Online_pay.html">Online Payment</a></li>
+                    <li><a href="Bank Details.html">Bank Details</a></li>
+            	</ul>
+            </li>    
+        </ul>
+        
+        <ul>
+            <li><a href="#">Login</a>
+                <ul>
+                    <li><a href="Admin Login.html">Admin Login</a></li>
+                    <li><a href="Member Login.html">Member Login</a></li>
+                </ul>
+            </li>    
+        </ul>
+        
+        <ul>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+        </ul>
+        
+        <ul>
+            <li><a href="Introspection.html">Introspection</a></li>
+        </ul>
+    
+    </div>
+    <br><br><br><br>
+
+    <table border="0" align="center" bgcolor="#f78605" width="1000" height="10">
+        <tr>
+         <td align="right">
+         	<div class="img_con" width="1000" >
+              <img class="mySlides" src="intro1.jpg" style="width:100%">
+              <img class="mySlides" src="intro2.jpg" style="width:100%">
+              <img class="mySlides" src="intro3.jpg" style="width:100%">
+              <img class="mySlides" src="intro4.jpg" style="width:100%">
+              <img class="mySlides" src="intro5.jpg" style="width:100%">
+			</div>
+			<script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 3000); // Change image every 3 seconds
+            }
+            </script>
+
+         </td>
+
+        </tr>
+    </table>
+    <br><br>
+    <table border="0" align="center" bgcolor="#f78605" width="1300" height="10">
+        <tr>
+        <td bgcolor="#f78605"><font color="#FFFFFF" size="6">CONTACT US</font></td>
+        </tr>
+    </table>
+    
+    
+    <br><br>
+    
+    <table border="0" align="center" bgcolor="" width="1300" height="10">
+    <tr>
+    	        <td align="center"><img src="ngo_icon.png" width="400"</td>
+
+        <td align="center">
+        
+        <h2>UTSARITO ALO</h2>
+        <h3>MOBILE</h3>
+        <h4>7047549141 (Pritam Chandra), 6295873894 (Amaresh Sar)</h4>
+        <h3>ADDRESS</h3>
+        <h4>Baganpara (Near Basundhara Hotel)</h4>
+        <h4>Santineketan-731235, Bolpur, West Bengal</h4>
+        <input type="image" onClick="location.href='https://www.google.co.in/maps/place/Bolpur,+West+Bengal/@23.6719932,87.6762986,21z/data=!4m5!3m4!1s0x39f9c351db120325:0xc58ef5e486dbdce5!8m2!3d23.671195!4d87.6918921'" src="maps.png" name="instagram" width="200" height="48" alt="submit"/> 
+
+       
+        </td>
+    </tr>
+</table>
+
+   <audio id="player" autoplay controls><source src="om.mp3" type="audio/mp3"></audio>
+    
+    <br><br><br>
+
+	<table border="0" align="center" bgcolor="#DBEDF0" width="1300" height="100">
+        <tr>
+            <td align="center">
+                <input type="image" onClick="location.href='https://youtube.com/channel/UCZMs5AbVR5h7j6sHEpHYHAg'" src="yt.png" name="Youtube" width="120" height="30" alt="submit"/> 
+            </td>
+            <td align="center">
+                <input type="image" onClick="location.href='https://www.facebook.com/utsarito.aalo'" src="fb.png" name="facebook" width="200" height="48" alt="submit"/> 
+            </td>
+            <td align="center">
+                <input type="image" onClick="location.href='https://www.instagram.com/utsarito.alo/'" src="insta.png" name="instagram" width="200" height="48" alt="submit"/> 
+            </td>
+            <td align="center">
+                <input type="image" onClick="location.href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJZdkbmsbsmSNLTjwNgtpMDfxvBcxDqpvdSBtdpDlbRmVWsWjGQzxJdbtmGmqpscKFfdCKL'" src="mail.png" name="mail" width="200" height="48" alt="submit"/> 
+            </td>
+        </tr>
+    </table>
+	
+<body oncontextmenu="#"></body>
+</body>
+</html>
